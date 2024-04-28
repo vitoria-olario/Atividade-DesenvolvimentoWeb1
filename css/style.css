@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-weight: 200px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+} 
+
+a{
+    color:white;
+}
+
+a:hover {
+    color: rgb(132, 14, 265);
+    transition: 0.3s all;
+}
+
+#loginIn_btn{
+    border: 2px solid rgb(132, 14, 265);
+    padding: 10px;
+    border-radius: 15px;
+}
+#loginIn_btn:hover{
+    background-color: rgb(132, 14, 265);
+    color: white;
+}
+
+span{
+    color:rgb(132, 14, 265);
+}
+
+main{
+    display: flex;
+    flex-direction:row ;
+    margin-top: 50px;
+}
+
+#logo{
+    margin-left: 40px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 16px;
+    font-family: poppinsmedium;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    text-align: justify;
+}
+
+img{
+    height: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 265);
+    font-weight: bold;
+    color: white;
+} 
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+.subscribe a {
+    display: inline-block;
+    padding: 20px 100px;
+    background-color: rgb(132, 14, 265);
+    color: white; 
+    font-family: poppins-bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.subscribe a:hover {
+    background-color: rgb(68, 4, 110);
+    font-weight: bold;
+    color: whitesmoke;
+    border: rgb(132, 14, 265);
+    transition: 0.4s;
+}
